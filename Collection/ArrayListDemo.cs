@@ -21,9 +21,9 @@ namespace Collection
             {
                 Console.WriteLine(ele);
             }
-            Console.WriteLine("The reverse element in queue");
+            Console.WriteLine("The reverse element in arraylist");
             arrayList.Reverse();
-            Console.WriteLine("The number of element in queue is: " + arrayList.Count);
+            Console.WriteLine("The number of element in arraylist is: " + arrayList.Count);
             foreach (var ele in arrayList)
             {
                 Console.WriteLine(ele);
